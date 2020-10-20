@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Declare Title -->
+    <title>Super Simple Single Page Maintenance Page</title>
+  </head>
+  <!-- Embedded Styles -->
+  <style>
+    .body {padding-top:0px;background-color: #fff;}
+    .main-text { text-align: center; margin: auto; padding: 45px}
+    .main-section {display: flex; flex-direction: column;min-height: 97vh !important;}
+    .btn {padding: 8px 10px;display: inline-block;outline: none;text-decoration: none;letter-spacing: 0.8px;-webkit-transition: all 0.3s;transition: all 0.3s;font-weight: 600;font-size: 14px;border-radius: .25rem;line-height: 1.5;cursor: pointer;}
+    .btn.btn-general {background: #007bff;border: 1px solid #007bff;color: #ffffff;}
+    .btn.btn-general:hover, .btn.btn-general:focus, .btn.btn-general:active, .btn.btn-general.active, .btn.btn-general.focus {color: #ffffff !important;background-color: #0b62d6;border: 1px solid #0b62d6;}
+    .footer {display:flex; font-size: 14px; width:100%;border-top: solid 1px rgb(229, 232, 237);display:block;}
+    .footer-item {margin: auto;text-align:center;font-weight: 500;margin-bottom:10px;margin-top:10px}
+    h1 { margin-top:0px;font-size: 40px; }
+    body { font: 20px Helvetica, sans-serif; color: #333; }
+    article { display: block; text-align: center; margin: 0 auto; }
+    a { color: #333; text-decoration: none; }
+    @media (max-width:629px) { .footer {display:block !important}.footer-item {padding-top: 5px; padding-bottom: 5px;}}
+  </style>
+  <!-- Begin Maintenance Page -->
+  <body class="body">
+    <section class="main-section">
+      <div class="main-text">
+        <h1>Sorry, we are performing some super awesome maintenance!</h1>
+        <div>
+            <p>If you have some super important top-secret information to tell us, please get in touch.</p>
+            <a href="mailto:supersecret@example.com" class="btn btn-general">Contact Us</a>
+        </div>
+      </div>
+      <!-- Begin Footer -->
+      <div class="footer">
+        <div class="footer-item">
+          Developed by Linuxgoose
+        </div>
+      </div>
+      <!-- End Footer -->
+    </section>
+  </body>
+  <!-- End Maintenance Page-->
+</html>
